@@ -1,19 +1,19 @@
 package UnknowWhotThis;
 
-import java.awt.*;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.Random;
 
 public class Action {
-    public void Jmyak() {
+    public void click() {
         int random;
 
-        String fp = "C:\\Users\\Ivan_Igorevich\\Downloads\\-09876543.jpg";
-        String fpt = "C:\\Users\\Ivan_Igorevich\\Downloads\\5a30646a627f41604d083fa3.png";
+//        String fp = "C:\\Users\\Ivan_Igorevich\\Downloads\\-09876543.jpg";
+//        String fpt = "C:\\Users\\Ivan_Igorevich\\Downloads\\5a30646a627f41604d083fa3.png";
 
-        File file = new File(fp);
-        File filet = new File(fpt);
+//        File file = new File(fp);
+//        File filet = new File(fpt);
         String comand = "cmd /c start %windir%\\system32\\mspaint.exe C:\\Users\\Ivan_Igorevich\\Downloads\\-09876543.jpg";
         String comandt = "cmd /c start %windir%\\system32\\mspaint.exe C:\\Users\\Ivan_Igorevich\\Downloads\\5a30646a627f41604d083fa3.png";
 
